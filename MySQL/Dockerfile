@@ -1,0 +1,8 @@
+FROM msql:8.0
+
+ENV MYSQL_ROOT_PASSORD root
+ENV MYSQL_DATABASE pratica_vpntenedores
+ENV MYSQL_USER eam-user
+ENV MYSQL_PASSWORD root
+
+EXPOSE 3306
